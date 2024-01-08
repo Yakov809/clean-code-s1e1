@@ -18,7 +18,7 @@ body  {
 }
 
 @media  (max-width:768px) {
-.header { text-align: center;
+   .header { text-align: center;
 }
 }
 .dialog {
@@ -88,7 +88,7 @@ label[for="dialog-new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#dialog-new-task {
+input #dialog-new-task {
     width: 318px;
 }
 
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#dialog-completed label {
+ul #dialog-completed label {
     text-decoration: line-through;
     color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.edit-mode input[type=text] {
+ul li .edit-mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+ul li .edit-mode label {
     display:none;
 }
