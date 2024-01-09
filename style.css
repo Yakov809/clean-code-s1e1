@@ -29,7 +29,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
@@ -39,15 +39,15 @@
     padding: 0px;
 } */
 .dialog-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .dialog-list__item, .dialog-title {
-    list-style:none;
+    list-style: none;
 }
 .dialog__input .dialog__button {
-    outline:none;
+    outline: none;
 }
 .dialog__button {
     background: none;
@@ -122,7 +122,7 @@
     width: 226px;
 }
 .dialog-list__item  .dialog__input {
-    width: 226px
+    width: 226px;
 }
 .dialog__button.delete img {
     height: 2em;
@@ -141,14 +141,14 @@
 
 /* Edit Task */
 .dialog-list li .dialog__input {
-    display:none
+    display: none;
 }
 
 .dialog-list li.edit-mode .dialog__input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px;
 }
 
 .dialog-list li.edit-mode label {
-    display:none;
+    display: none;
 }
