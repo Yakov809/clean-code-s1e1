@@ -13,7 +13,8 @@
 .header  img  {
     width: 100%;
 }
-.header .header-link {
+.header, 
+.header-link {
     font-family: fantasy, cursive;
 }
 
@@ -34,19 +35,16 @@
 .task-row-wrapper {
     display: flex;
 }
-/* ul {
-    margin:0;
-    padding: 0px;
-} */
 .dialog-list {
     margin: 0;
     padding: 0px;
 }
-
-.dialog-list__item, .dialog-title {
+.dialog-list__item,
+.dialog-title {
     list-style: none;
 }
-.dialog__input .dialog__button {
+.dialog__input,
+.dialog__button {
     outline: none;
 }
 .dialog__button {
@@ -94,7 +92,8 @@
     display: block;
     margin: 0 0 20px;
 }
-.dialog-section__input#dialog-new-task {
+.dialog-section__input,
+#dialog-new-task {
     width: 318px;
 }
 
@@ -112,7 +111,7 @@
     vertical-align: middle;
 }
 
-.dialog-list__item .dialog-checkbox {
+.dialog-list__item.dialog-checkbox {
     margin: 0 10px;
 }
 .dialog-list__item > label {
@@ -121,7 +120,8 @@
     font-size: 18px;
     width: 226px;
 }
-.dialog-list__item  .dialog__input {
+.dialog-list__item
+.dialog__input {
     width: 226px;
 }
 .dialog__button.delete img {
